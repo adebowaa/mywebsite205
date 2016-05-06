@@ -1,0 +1,73 @@
+{
+    margin:0px;
+    padding:0px;
+}
+
+
+body{
+    background-image: url("images/uefa.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+} 
+
+ h1{
+    font: bold 28px timesnewroman;
+    color: white;
+    text-align: center;
+} 
+    
+p{
+    font:;
+    color: white;
+    text-align: center;
+    border: 1px solid red;
+    background-color: black;
+}
+
+ul{
+    text-align: left;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    border: 1px solid red;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.img_center{
+    display: block;
+    margin:0 auto;
+}
+
+table{
+    color:white;
+    border: 1px solid red;
+    background-color: black;
+}

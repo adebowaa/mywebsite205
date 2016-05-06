@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <title>A very simple form</title>
+</head>
+<body>
+     <ul>
+            <li><a href="ChampionsLeague.html" class="menu"> Home </a></li>
+             <li><a href="About.html" class="menu"> About </a></li>
+             <li><a href="TheScope.html" class="menu">TheScope </a></li>
+             <li><a href="Earnings.html" class="menu"> Earnings </a></li>
+             <li><a href="records.html" class="menu">Records </a></li> 
+             
+<form action="" method="post">
+    <label for="nameId">Name:</label>
+    <br>
+    <input type="text" name="name" id="nameId">
+    <br>
+    <label for="commentsId">Comments:</label>
+    <br>
+    <textarea name="comments" id="commentsId" cols="30" rows="10"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+{% if name %}
+    <p> Your name is: {{ name }}</p>
+    <p>and your comments are: {{ comments }}</p>
+    <p>A big thank you!</p>
+{% endif %}
+
+</body>
+</html>
